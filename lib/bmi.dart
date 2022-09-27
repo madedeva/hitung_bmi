@@ -21,10 +21,10 @@ class _InputBMIState extends State<InputBMI> {
       appBar: AppBar(
         //backgroundColor: Colors.blue[900],
         centerTitle: true,
-        leading: const Icon(
-          Icons.favorite,
-          color: Colors.pink,
-        ),
+        // leading: const Icon(
+        //   Icons.favorite,
+        //   color: Colors.pink,
+        // ),
         title: const Text('MENGHITUNG BMI'),
       ),
       body: SingleChildScrollView(
