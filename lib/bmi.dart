@@ -115,11 +115,11 @@ class _InputBMIState extends State<InputBMI> {
           height: 60,
           color: Colors.black54,
           alignment: Alignment.center,
-          // child: const Text(
-          //   'Developed by Resika Arthana',
-          //   style: TextStyle(
-          //       fontSize: 20, fontWeight: FontWeight.w500, color: Colors.white),
-          // ),
+          child: const Text(
+            'Developed by: @daffaalfarizi',
+            style: TextStyle(
+                fontSize: 20, fontWeight: FontWeight.w500, color: Colors.white),
+          ),
         ),
         //elevation: 0,
       ),
