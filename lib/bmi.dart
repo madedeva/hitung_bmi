@@ -116,7 +116,7 @@ class _InputBMIState extends State<InputBMI> {
           color: Colors.black54,
           alignment: Alignment.center,
           child: const Text(
-            'Developed by: @daffaalfarizi',
+            'Developed by: @devakertiwijaya',
             style: TextStyle(
                 fontSize: 20, fontWeight: FontWeight.w500, color: Colors.white),
           ),
