@@ -1,5 +1,4 @@
 // ignore_for_file: deprecated_member_use
-
 import 'package:flutter/material.dart';
 import 'dart:math';
 
@@ -13,13 +12,13 @@ class BMIResult extends StatelessWidget {
     double bmi = berat_badan / pow(tinggi_badan / 100, 2);
     String cBMI;
     if (bmi >= 28)
-      cBMI = "Obese";
+      cBMI = "Gemuk";
     else if (bmi >= 23)
-      cBMI = "Overweight";
+      cBMI = "Kegemukan";
     else if (bmi >= 17.5)
       cBMI = "Normal";
     else
-      cBMI = "Underweight";
+      cBMI = "Berat badan kurang";
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
@@ -48,7 +47,7 @@ class BMIResult extends StatelessWidget {
               ),
             ),
             const Text(
-              'Normal BMI Range',
+              'Rentang BMI Normal',
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.w800,
