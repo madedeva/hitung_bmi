@@ -17,6 +17,7 @@ class _InputBMIState extends State<InputBMI> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        elevation: 0,
         centerTitle: true,
         title: const Text('MENGHITUNG BMI'),
       ),
