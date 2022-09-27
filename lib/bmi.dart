@@ -17,14 +17,8 @@ class _InputBMIState extends State<InputBMI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //backgroundColor: Colors.blue[50],
       appBar: AppBar(
-        //backgroundColor: Colors.blue[900],
         centerTitle: true,
-        // leading: const Icon(
-        //   Icons.favorite,
-        //   color: Colors.pink,
-        // ),
         title: const Text('MENGHITUNG BMI'),
       ),
       body: SingleChildScrollView(
@@ -39,7 +33,6 @@ class _InputBMIState extends State<InputBMI> {
             Container(
                 margin: const EdgeInsets.only(top: 20),
                 padding: const EdgeInsets.all(10),
-                // color: Colors.blue[700],
                 child: Row(
                   children: <Widget>[
                     Expanded(
@@ -86,7 +79,6 @@ class _InputBMIState extends State<InputBMI> {
                   ],
                 )),
             Container(
-              //height: double.infinity,
               margin: const EdgeInsets.only(left: 10, right: 10, bottom: 20),
               child: RaisedButton(
                 onPressed: () {
@@ -110,7 +102,6 @@ class _InputBMIState extends State<InputBMI> {
         ),
       ),
       bottomNavigationBar: BottomAppBar(
-        //color: Colors.transparent,
         child: Container(
           height: 60,
           color: Colors.black54,

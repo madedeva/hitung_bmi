@@ -23,7 +23,7 @@ class BMIResult extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text('RESULT'),
+        title: const Text('HASIL'),
       ),
       body: Container(
         alignment: Alignment.center,
@@ -72,7 +72,7 @@ class BMIResult extends StatelessWidget {
         child: RaisedButton(
           color: Colors.black54,
           child: const Text(
-            'BACK',
+            'KEMBALI',
             style: TextStyle(fontSize: 30),
           ),
           onPressed: () {
